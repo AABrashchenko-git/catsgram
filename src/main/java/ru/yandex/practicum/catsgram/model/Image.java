@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 @Data
-@EqualsAndHashCode(of = { "id" })
+@EqualsAndHashCode(of = {"id"})
 public class Image {
     Long id;
     long postId;
